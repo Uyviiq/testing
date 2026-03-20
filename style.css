@@ -1,0 +1,63 @@
+:root {
+  --bg-2: #ffa8a8;
+  --bg-1: #ff8787;
+}
+body {
+  height: 100vh;
+  background-color: var(--bg-1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.love-card {
+  width: 800px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.love-card .main-img {
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.7);
+  opacity: 0.7;
+  transition: opacity 300ms ease;
+}
+.love-card .main-img:hover {
+  opacity: 1;
+}
+.btns {
+  margin-top: 20px;
+  display: flex;
+  gap: 40px;
+}
+button {
+  font-size: 25px;
+  padding: 14px 25px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+button:hover {
+  transform: scale(0.97);
+}
+.heading {
+  font-size: 60px;
+  letter-spacing: 2px;
+}
+.saying-yes {
+  color: #fff;
+  background-color: #2b8a3e;
+}
+.saying-no {
+  background-color: #c92a2a;
+  color: #fff;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

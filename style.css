@@ -41,7 +41,7 @@ button {
   outline: none;
 }
 button:hover {
-  transform: scale(0.97);
+  scale:0.97;
 }
 .heading {
   font-size: 60px;
